@@ -10,11 +10,7 @@
   <ion-grid>
     <ion-row *ngFor="let item of products;let i = index;let even=even;">
       <ion-col col-6 *ngIf='even'>
-        <!-- <div>{{item.image.src}}</div> -->
         <img [src]="item.image.src" alt="item.image.alt">
-        <!-- <div>{{item.name}}</div>
-        <div><span>{{item.price}}{{item.currency}}.</span><span>{{item.price}}</span></div> -->
-
         <ion-label>
           <h3>{{item.name}}</h3>
           <h4>{{item.price}}{{item.currency}}. <span>{{item.store_name | uppercase}}</span></h4>
@@ -22,7 +18,6 @@
       </ion-col>
       <ion-col col-6 *ngIf='i+1 < products.length && even'>
         <img [src]="products[i+1].image.src" alt="products[i+1].image.alt">
-        <!-- <div>{{products[i+1].name}}</div> -->
         <ion-label>
           <h3>{{products[i+1].name}}</h3>
           <h4>{{products[i+1].price}}{{products[i+1].currency}}. <span>{{products[i+1].store_name | uppercase}}</span></h4>
