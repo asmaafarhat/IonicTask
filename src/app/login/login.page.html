@@ -1,0 +1,31 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+<div class="master">
+  <div class="pic1">
+    <img src="../../assets/logo/asset1.png" alt="">
+  </div>
+  <div class="pic2">
+    <img src="../../assets/logo/asset2.png" alt="">
+    <p>Unlock the full Experience</p>
+  </div>
+    
+  <section>
+    <button id="facebook" expand="block" (click)="loginWithFacebook()">Sign in with Fasebook</button>
+    <ion-grid>
+      <ion-row>
+        <ion-col  col-6>
+          <button id="google" size="large" (click)="loginWithGoogle()">Google</button>
+        </ion-col>
+        <ion-col col-6>
+          <button id="twitter" size="large" (click)="loginWithTwitter()">Twitter</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </section>
+</div>
+</ion-content>

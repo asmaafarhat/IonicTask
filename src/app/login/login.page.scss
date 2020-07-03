@@ -1,0 +1,71 @@
+ion-content {
+    --ion-background-color: #3a415b;
+    .master {
+        height: 100%;
+        .pic1 {
+            height: 35%;
+            display: flex;
+            align-items: flex-end;
+            position: relative;
+            left: 35%;
+        }
+        .pic2 {
+            height: 22%;
+            align-items: baseline;
+            position: relative;
+            left: 20%;
+            top: 50px;
+            display: inline-block;
+            text-align: center;
+            img{
+                // width: 100%;
+            }
+            p {
+                color: #ffffff;
+                // font-size: 70%;
+            }
+        }
+        section {
+            #facebook {
+                color: #ffffff;
+                background-color: #3a599d;
+                border-radius: 5px;
+                width: 90%;
+                height: 45px;
+                position: relative;
+                left: 15px;
+                font-size: 100%;
+            }
+            ion-grid {
+                ion-row {
+                    ion-col {
+                        #google {
+                            color: #ff7f85;
+                            background-color: #ffffff;
+                            border-radius: 5px;
+                            width: 95%;
+                            height: 45px;
+                            position: relative;
+                            left: 5px;
+                            font-size: 100%;
+                        }
+                        #twitter {
+                            color: #ffffff;
+                            background-color: #1eb1e7;
+                            border-radius: 5px;
+                            font-family: "El Messiri", sans-serif;
+                            width: 90%;
+                            height: 45px;
+                            font-size: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// #3a415b
+// #3a599d
+// #ff7f85
+// #1eb1e7

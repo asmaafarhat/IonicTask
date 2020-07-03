@@ -1,0 +1,8 @@
+{
+  "name": "ionicTask",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
